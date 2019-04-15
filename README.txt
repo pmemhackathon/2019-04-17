@@ -4,7 +4,7 @@
 # Hayes Mansion, San Jose
 #
 # These are the materials used during the hackathon:
-#	slides.pdf contains the slides shown
+#	2019_04_17_slides.pdf contains the slides shown
 #	Commmands demonstrated during the hackathon are listed below.
 #	Source files for programming examnples are in this repo.
 #
