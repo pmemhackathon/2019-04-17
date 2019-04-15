@@ -29,9 +29,17 @@ grep -i pmem /boot/config-`uname -r`
 grep -i nvdimm /boot/config-`uname -r`
 
 #
+# Use ipmctl to show that you have pmem installed
+#
+
+ipmctl show -topology
+ipmctl show -memoryresources
+ipmctl show -dimm
+
+#
 # Use ndctl to show that you have pmem installed:
 #
-ndctl list -u
+ndctl list -RuN
 
 # HW configuration 
 # We have already created regions and namespaces and and mounted DAX-capable file system. 
