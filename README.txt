@@ -1,5 +1,4 @@
-# 2019-04-17
-# PMDK lab @ SPDK, PMDK & VTune Amplifier Developer Summit
+# SPDK PMDK & Intel(r) VTune(tm) Amplifier Developer Summit
 # April 17, 2019
 # 1:00pm - 3:00pm
 # Hayes Mansion, San Jose
