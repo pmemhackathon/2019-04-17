@@ -77,6 +77,7 @@ push 2
 push 3
 pop
 show
+exit
 
 #
 # queue_pmemobj.cpp
@@ -91,6 +92,7 @@ push 2
 push 3
 pop
 show
+exit
 
 #
 # simplekv_simple.cpp
