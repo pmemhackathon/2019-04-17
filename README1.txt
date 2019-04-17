@@ -1,5 +1,16 @@
 
+#SPDK PMDK & Intel(r) VTune(tm) Amplifier Developer Summit
+# April 17, 2019
+# 1:00pm - 3:00pm
+# Hayes Mansion, San Jose
 #
+# These are the materials used during the hackathon:
+#	slides_2019_04_17.pdf contains the slides shown
+#	Commmands demonstrated during the hackathon are listed below.
+#	Source files for programming examnples are in this repo.
+#
+# These instructions are designed to work on in your lab session
+# running Ubuntu 18.04.1 (bionic)
 # libpmemobj-cpp workshop
 #
 # These are the materials used during the workshop:
@@ -15,11 +26,18 @@
 # Getting Started Guide on pmem.io:
 # https://docs.pmem.io/getting-started-guide
 
+# HW configuration: 
+# We have already created regions and namespaces and and mounted DAX-capable file system. 
+# Go to /mnt/pmem-fsdax0/pmdkuser<x>
+
+# Software 
+# All the following required libraries are already installed 
+# libmemkind, PMDK and libpmemobj-cpp
 #
 # Start by making a clone of this repo...
 #
-git clone https://github.com/pmemhackathon/2019-04-08
-cd 2019-04-08
+git clone https://github.com/pmemhackathon/2019-04-17
+cd 2019-04-17
 
 #
 # Compile examples.
